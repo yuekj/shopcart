@@ -1,0 +1,39 @@
+<!--pages/index/index.wxml-->
+<view>
+  <flyCart current="{{currentXY}}" imageUrl="https://pic.cnblogs.com/avatar/1628917/20201219134424.png" wx:if="{{aniStart}}"></flyCart>
+  <view class="box">
+    <view class="boxli">
+      <image class="boximg" src="https://pic.cnblogs.com/avatar/1628917/20201219134424.png"></image>
+      <view class="add" bindtap="startCart">
+        +
+      </view>
+    </view>
+    <view class="boxli">
+      <image class="boximg" src="https://pic.cnblogs.com/avatar/1628917/20201219134424.png"></image>
+      <view class="add" bindtap="startCart">
+        +
+      </view>
+    </view>
+    <view class="boxli">
+      <image class="boximg" src="https://pic.cnblogs.com/avatar/1628917/20201219134424.png"></image>
+      <view class="add" bindtap="startCart">
+        +
+      </view>
+    </view>
+    <view class="boxli">
+      <image class="boximg" src="https://pic.cnblogs.com/avatar/1628917/20201219134424.png"></image>
+      <view class="add" bindtap="startCart">
+        +
+      </view>
+    </view>
+    <view class="boxli">
+      <image class="boximg" src="https://pic.cnblogs.com/avatar/1628917/20201219134424.png"></image>
+      <view class="add" bindtap="startCart">
+        +
+      </view>
+    </view>
+  </view>
+  <view class="cart">
+    购物车
+  </view>
+</view>
